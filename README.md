@@ -89,10 +89,10 @@ Use this program when you want to:
 ### Conclusion
 You don't have to choose just one. You have a complete toolkit for a computational and theoretical attack on the problem. I would recommend using them in a workflow:
 
-* Generate Data: Start by using goldbach_partition_counter.cpp to create the foundational empirical data.
-* Explore & Hypothesize: Use goldbach_activated_sums_v7.py to analyze the structure of the problem and generate hypotheses about which numbers are "hard", leveraging the generated data.
-* Verify & Prove: Use goldbach_segmented_sieve.cpp to perform the heavy-duty computations that verify the conjecture holds true for massive ranges, providing confidence in your theoretical findings.
-* Prototype & Test: Use goldbach_tuple_hypothesis.py for any quick, small-scale tests of new ideas that come up during your research.
+* **Generate Data**: Start by using goldbach_partition_counter.cpp to create the foundational empirical data.
+* **Explore & Hypothesize**: Use goldbach_activated_sums_v7.py to analyze the structure of the problem and generate hypotheses about which numbers are "hard", leveraging the generated data.
+* **Verify & Prove**: Use goldbach_segmented_sieve.cpp to perform the heavy-duty computations that verify the conjecture holds true for massive ranges, providing confidence in your theoretical findings.
+* **Prototype & Test**: Use goldbach_tuple_hypothesis.py for any quick, small-scale tests of new ideas that come up during your research.
 
 ### Citing this Work
 If you use the materials in this repository, please cite the research paper:
